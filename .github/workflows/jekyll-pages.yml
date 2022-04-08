@@ -7,36 +7,37 @@ on:
 
 jobs:
   jekyll:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest #macos-latest
     steps:
       - name: 📂 setup
         uses: actions/checkout@v2
         with:
-          working-directory: ./jekyll/ghpages
+          #working-directory: ./jekyll/ghpages
+          fetch-depth: '0'
 
-        # include the lines below if you are using jekyll-last-modified-at
-        # or if you would otherwise need to fetch the full commit history
-        # however this may be very slow for large repositories!
-        # with:
-        # fetch-depth: '0'
       - name: 💎 setup ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7
-          working-directory: ./jekyll/ghpages
+          #working-directory: ./jekyll/ghpages
+
+      #- name: 📂 Enter directory
+      #  run: |
+      #    cd ./jekyll/ghpages
 
       - name: 🔨 install dependencies & build site
         uses: limjh16/jekyll-action-ts@v2
         with:
           enable_cache: true
-          working-directory: ./jekyll/ghpages
+          jekyll_src: jekyll/ghpages
+          #working-directory: ./jekyll/ghpages
 
       - name: 🚀 deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           #github_token: ${{ secrets.GITHUB_TOKEN }}
           #deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          working-directory: ./jekyll/ghpages
+          #working-directory: ./jekyll/ghpages
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
           external_repository: opeoniye/opeoniye.github.io
           publish_branch: main
