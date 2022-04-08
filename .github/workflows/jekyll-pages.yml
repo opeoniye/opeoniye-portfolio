@@ -12,18 +12,12 @@ jobs:
       - name: 📂 setup
         uses: actions/checkout@v2
         with:
-          #working-directory: ./jekyll/ghpages
           fetch-depth: '0'
 
       - name: 💎 setup ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7
-          #working-directory: ./jekyll/ghpages
-
-      #- name: 📂 Enter directory
-      #  run: |
-      #    cd ./jekyll/ghpages
 
       - name: 🔨 install dependencies & build site
         uses: limjh16/jekyll-action-ts@v2
@@ -35,10 +29,8 @@ jobs:
       - name: 🚀 deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          #github_token: ${{ secrets.GITHUB_TOKEN }}
           #deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          #working-directory: ./jekyll/ghpages
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
           external_repository: opeoniye/opeoniye.github.io
           publish_branch: main
-          publish_dir: ./web
+          publish_dir: ./jekyll/ghpages/web

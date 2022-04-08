@@ -13,6 +13,7 @@ footer_text: >
   Theme <a href="https://github.com/alshedivat/al-folio" target="_blank">Al-folio</a> 
   Hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: bams, bams-portfolio, samuel-john  # add your own keywords or leave empty
+repository: opeoniye/opeoniye-portfolio
 
 lang: en 
 icon: bams_fav.png
