@@ -12,7 +12,9 @@ jobs:
       - name: 📂 setup
         uses: actions/checkout@v2
         with:
-          fetch-depth: '0'
+          #repository: my-org/my-tools
+          path: opeoniye
+          fetch-depth: 0
 
       - name: 💎 setup ruby
         uses: ruby/setup-ruby@v1
@@ -24,7 +26,6 @@ jobs:
         with:
           enable_cache: true
           jekyll_src: jekyll/ghpages
-          #working-directory: ./jekyll/ghpages
 
       - name: 🚀 deploy
         uses: peaceiris/actions-gh-pages@v3
