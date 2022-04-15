@@ -10,11 +10,13 @@ jobs:
     runs-on: ubuntu-latest #macos-latest
     steps:
       - name: 📂 setup
-        uses: actions/checkout@v2
+        #uses: actions/checkout@v2
+        uses: Bhacaz/checkout-files
         with:
           #repository: my-org/my-tools
           #path: opeoniye
-          fetch-depth: 0
+          files: jekyll/ghpages
+          #fetch-depth: 0
 
       - name: 💎 setup ruby
         uses: ruby/setup-ruby@v1
@@ -25,7 +27,7 @@ jobs:
         uses: limjh16/jekyll-action-ts@v2
         with:
           enable_cache: true
-          jekyll_src: jekyll/ghpages
+          #jekyll_src: jekyll/ghpages
 
       - name: 🚀 deploy
         uses: peaceiris/actions-gh-pages@v3
@@ -34,4 +36,4 @@ jobs:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
           external_repository: opeoniye/opeoniye.github.io
           publish_branch: main
-          publish_dir: ./jekyll/ghpages/web
+          #publish_dir: ./jekyll/ghpages/web
