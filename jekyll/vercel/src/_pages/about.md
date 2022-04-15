@@ -7,7 +7,7 @@ subtitle: DevOps | Linux | AWS | CI/CD | IaC
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: bams_a.jpg
   address: >
     <p>Lagos, Nigeria</p>
     <p>+234 813 0609 628</p>

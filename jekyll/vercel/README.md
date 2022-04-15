@@ -1,6 +1,6 @@
-# Engineer Sam Portfolio Website
+# Engineer Sam Portfolio
 
-This portfolio website was built with [Jekyll]() and hosted on [Github Pages](https://pages.github.com/).
+This portfolio website was built with [Jekyll](https://jekyllrb.com/) and hosted on [Vercel](https://opeoniye.vercel.app)
 
 ## Getting started
 

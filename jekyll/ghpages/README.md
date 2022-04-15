@@ -1,6 +1,6 @@
-# Engineer Sam Portfolio Website
+# Engineer Sam Portfolio 
 
-Built with [Jekyll](https://jekyllrb.com/) Hosted on [Github Pages](https://pages.github.com/).
+Built with [Jekyll](https://jekyllrb.com/) Hosted on [Github Pages](https://pages.github.com/)
 
 ## Getting started
 

@@ -6,11 +6,11 @@ on:
       - main
 
 jobs:
-  jekyll:
+  opeoniye-portfolio-jekyll:
     runs-on: ubuntu-latest #macos-latest
     steps:
       - name: 📂 setup
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
         with:
           #repository: my-org/my-tools
           #path: opeoniye

@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  welcome to my space
-date:   2022-03-23 16:23:00
+title: welcome to my space
+date: 2022-03-23 16:23:00
 description: a brief introduction
 tags: intro purpose devops
 categories: blog
