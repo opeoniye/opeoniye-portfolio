@@ -16,6 +16,7 @@ jobs:
           #repository: my-org/my-tools
           #path: opeoniye
           files: jekyll/ghpages
+          token: ${{ secrets.PERSONAL_TOKEN }}
           #fetch-depth: 0
 
       - name: 💎 setup ruby
