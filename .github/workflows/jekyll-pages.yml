@@ -1,0 +1,40 @@
+name: Bams portfolio
+
+on:
+  push:
+    branches:
+      - ghpages-jekyll
+
+jobs:
+  opeoniye-portfolio-jekyll:
+    runs-on: macos-latest #ubuntu-latest #macos-latest
+    steps:
+      - name: 📂 setup
+        uses: actions/checkout@v2
+        #uses: Bhacaz/checkout-files@v1
+        with:
+          #repository: my-org/my-tools
+          #path: opeoniye
+          #files: jekyll/ghpages
+          #token: ${{ secrets.PERSONAL_TOKEN }}
+          fetch-depth: 0
+
+      - name: 💎 setup ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+
+      - name: 🔨 install dependencies & build site
+        uses: limjh16/jekyll-action-ts@v2
+        with:
+          enable_cache: true
+          #jekyll_src: jekyll/ghpages
+
+      - name: 🚀 deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          #deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          external_repository: opeoniye/opeoniye.github.io
+          publish_branch: main
+          #publish_dir: ./jekyll/ghpages/web
