@@ -1,2 +1,3 @@
 ## Portfolio website
-[Link](https://opeoniye.github.io)
+[Github Pages](https://opeoniye.github.io)
+[Vercel](https://opeoniye.vercel.app/)
