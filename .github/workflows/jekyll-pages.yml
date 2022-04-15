@@ -3,7 +3,7 @@ name: Bams portfolio
 on:
   push:
     branches:
-      - main
+      - ghpages-jekyll
 
 jobs:
   opeoniye-portfolio-jekyll:
