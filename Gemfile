@@ -2,9 +2,9 @@ source 'https://rubygems.org'
 
 ruby "2.7.5"
 
+gem 'jekyll', '~> 4.2.2'
+
 group :jekyll_plugins do
-    gem 'jekyll'
-    gem 'jekyll-admin'
     gem 'jekyll-archives'
     gem 'jekyll-diagrams'
     gem 'jekyll-email-protect'
