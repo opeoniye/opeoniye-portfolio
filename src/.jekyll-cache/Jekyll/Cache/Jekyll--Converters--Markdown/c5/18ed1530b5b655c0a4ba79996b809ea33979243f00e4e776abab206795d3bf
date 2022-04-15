@@ -1,0 +1,56 @@
+I"Ã<p>A CI/CD pipeline to build, release and maintain a simple NodeJS api with React frontend.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/microservices/k8s-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/microservices/k8s-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/microservices/k8s-1400.webp" />
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/microservices/k8s.jpg" title="Kubernetes config" />
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/microservices/k8s_docker-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/microservices/k8s_docker-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/microservices/k8s_docker-1400.webp" />
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/microservices/k8s_docker.jpg" title="Docker image build" />
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/microservices/k8s_travis-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/microservices/k8s_travis-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/microservices/k8s_travis-1400.webp" />
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/microservices/k8s_travis.jpg" title="Travis CI build" />
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    Screenshots of the build and deployment pipeline
+</div>
+
+<p>Project took 10+ days to deploy as a learner but i have since mastered the concepts, and keep growing my experience.</p>
+
+:ET

@@ -1,0 +1,78 @@
+I"=<p>A simple but useful fullstack web app written to serve the needs of online viewers and members of the Deeper Life Bible Church, a global church headquartered in Lagos, Nigeria.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/dclm-webcast/01-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/dclm-webcast/01-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/dclm-webcast/01-1400.webp" />
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/dclm-webcast/01.jpg" title="example image" />
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/dclm-webcast/02-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/dclm-webcast/02-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/dclm-webcast/02-1400.webp" />
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/dclm-webcast/02.jpg" title="example image" />
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/dclm-webcast/03-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/dclm-webcast/03-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/dclm-webcast/03-1400.webp" />
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/dclm-webcast/03.jpg" title="example image" />
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    Web app screenshots
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/dclm-webcast/01-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/dclm-webcast/01-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/dclm-webcast/01-1400.webp" />
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/dclm-webcast/01.jpg" title="example image" />
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    A simple web app with a far-reaching impact.
+</div>
+
+<p>This simple web app servers over 10k weekly users and visitors with the live streaming messages of <a href="https://www.facebook.com/pastorkumuyiofficial" target="\_blank">Pastor Dr. W.F. Kumuyi</a>.
+It is such an honour to be privileged to work under God’s servant and this church <a href="https://www.facebook.com/dclmhq" target="\_blank">Deeper Christian Life Ministry</a>.</p>
+
+<p>App tech stack: <code class="language-plaintext highlighter-rouge">PHP</code>, <code class="language-plaintext highlighter-rouge">MySQL</code>, <code class="language-plaintext highlighter-rouge">EC2</code>, <code class="language-plaintext highlighter-rouge">AWS S3</code>, <code class="language-plaintext highlighter-rouge">AWS RDS</code>, <code class="language-plaintext highlighter-rouge">HTML</code>, <code class="language-plaintext highlighter-rouge">CSS</code> and <code class="language-plaintext highlighter-rouge">Javascript</code>.</p>
+:ET

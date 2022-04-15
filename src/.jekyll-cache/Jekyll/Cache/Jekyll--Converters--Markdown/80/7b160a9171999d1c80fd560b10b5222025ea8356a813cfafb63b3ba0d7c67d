@@ -1,0 +1,25 @@
+I"ù<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/dclm-website/01-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/dclm-website/01-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/dclm-website/01-1400.webp" />
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/dclm-website/01.jpg" title="example image" />
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    DCLM global website.
+</div>
+
+<p>DCLM Website - A WordPress backed website that is built to be easily customisable with custom, purpose-built plugins to serve sermons and church location data from the database.
+The website is served using an <code class="language-plaintext highlighter-rouge">Nignx</code> server that is fine-tuned and optimised to server hundreds of thousands of concurrent visitors globally. The website runs on AWS EC2.</p>
+
+:ET
