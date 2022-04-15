@@ -7,7 +7,7 @@ on:
 
 jobs:
   opeoniye-portfolio-jekyll:
-    runs-on: ubuntu-latest #macos-latest
+    runs-on: macos-latest #ubuntu-latest #macos-latest
     steps:
       - name: 📂 setup
         #uses: actions/checkout@v2
