@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: DevOps | Linux | AWS | CI/CD | IaC
+subtitle: Cloud Engineer | DevOps | Systems Administrator | AWS | Linux
 # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
@@ -17,7 +17,7 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-
+###### **About Me**
 An experienced Linux server admin who is canny and blessed with foresight. Built SaaS solution serving 100k+ users. Professional experience in Linux, Cloud (AWS), DevOps, and Open source.
 
 A self-motivated individual with agile skill, methodologies and approach that conquers new/difficult challenges. This is documented in my resume and demonstrated in the link to the projects that I have undertaken and successfully deployed to clients over the years. 
@@ -31,6 +31,6 @@ Backend: `NodeJS`, `ExpressJS`, `Nginx`, `MariaDB`, `DynamoDB`,
 Frontend: `Html5`, `CSS3`, `Bootstrap`, `React`, `Webpack`, `Babel`  
 Database: `MariaDB`, `PostgreSQL`, `MongoDB`, `Elasticsearch`  
 PaaS: `Netflify`, `Vercel`, `Cloudflare Pages`, `Github Pages`  
-DevOps: `AWS`, `Azure`, `Git`, `Docker`, `Kubernetes`, `Terraform`, `TravisCI`, `CircleCI`, `Kibana`  
+DevOps: `AWS`, `Azure`, `Git`, `Docker`, `Kubernetes`, `Terraform`, `CircleCI`, `Kibana`  
 
 <hr>

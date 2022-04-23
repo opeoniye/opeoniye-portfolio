@@ -11,10 +11,10 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Engineer Sam portfolio/blog
 footer_text: >
   Theme <a href="https://github.com/alshedivat/al-folio" target="_blank">Al-folio</a> 
-  Hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: bams, bams-portfolio, samuel-john  # add your own keywords or leave empty
+  Hosted on <a href="https://vercel.com" target="_blank">Vercel</a>.
+keywords: bams, opeoniye, bams-portfolio, samuel-john  # add your own keywords or leave empty
 
-lang: en 
+lang: en
 icon: bams_fav.png
 url: https://opeoniye.vercel.app
 baseurl:  # the subpath of your site, e.g. /blog/

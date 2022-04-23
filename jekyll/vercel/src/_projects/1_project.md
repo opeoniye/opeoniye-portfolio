@@ -7,7 +7,9 @@ importance: 1
 category: devops
 ---
 
-A CI/CD pipeline to build, release and maintain a simple NodeJS api with React frontend.
+Project repo: [Github link](https://github.com/opeoniye/kubernetes-ci-cd)
+
+A kubernetes CI/CD pipeline to build, release and maintain a simple NodeJS api with an Angular frontend.
 
 
 <div class="row">
