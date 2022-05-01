@@ -11,13 +11,13 @@ A simple but useful fullstack web app written to serve the needs of online viewe
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/dclm-webcast/01.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/dclm-webcast/01.jpg" title="DCLM Webcast" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/dclm-webcast/02.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/dclm-webcast/02.jpg" title="DCLM Webcast" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/dclm-webcast/03.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/dclm-webcast/03.jpg" title="DCLM Webcast" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -25,7 +25,9 @@ A simple but useful fullstack web app written to serve the needs of online viewe
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/dclm-webcast/01.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <a href="https://webcast.dclm.org">
+        {% include figure.html path="assets/img/dclm-webcast/01.jpg" title="DCLM Webcast" class="img-fluid rounded z-depth-1" %}
+        </a>
     </div>
 </div>
 <div class="caption">

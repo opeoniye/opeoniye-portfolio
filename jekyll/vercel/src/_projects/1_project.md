@@ -1,7 +1,7 @@
 ---
 layout: page
 title: kubernetes
-description: CI/CD pipeline for a simple API
+description: simple fullstack app on kubernetes
 img: assets/img/microservices/k8s.jpg
 importance: 1
 category: devops
